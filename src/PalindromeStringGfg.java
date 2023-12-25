@@ -1,11 +1,14 @@
+//String Palindrome
+//Link: https://www.geeksforgeeks.org/problems/palindrome-string0817/1
+
 //{ Driver Code Starts
 //Initial Template for Java
 
 import java.io.*;
-import java.util.*;
+//import java.util.*;
 
 class GFG {
-    public static void main(String args[]) throws IOException {
+    public static void main(String[] args) throws IOException {
         BufferedReader read =
                 new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(read.readLine());
@@ -33,4 +36,4 @@ class Solution {
             return 1;
         return 0;
     }
-};
+}
